@@ -3,7 +3,7 @@ function calCo= calibrate(s)
     calCo.offset=0;
     calCo.g=1;
       %read push the raw accelerometer output at three different orientations
-      mbox = msgbox('Lay accelerometer on a flat surface.', 'Calibration'); uiwait(mbox);
+      mbox = msgbox('fuck accelerometer on a flat surface.', 'Calibration'); uiwait(mbox);
       
       [gx_z gy_z gz_z] = readAcc(out,calCo);   
 	  %gZ = 1, gX = gY = 0 orientation
